@@ -1,6 +1,6 @@
 # CoffeeMachine -Object Oriented Design
 Run main.py
-- what would you like? (espresso/latte/cappuccino/):
+- what would you like? (espresso/latte/cappuccino/off/report):
 
 
 ## MenuItem Class
