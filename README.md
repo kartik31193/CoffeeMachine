@@ -1,7 +1,8 @@
 # CoffeeMachine -Object Oriented Design
 
-MenuItem Class
-Attributes:
+##MenuItem Class
+
+###Attributes:
 name
 (str) The name of the drink.
 e.g. “latte”
@@ -16,8 +17,9 @@ e.g. {“water”: 100, “coffee”: 16}
 
 
 
-Menu Class
-Methods:
+##Menu Class
+
+###Methods:
 get_items()
 Returns all the names of the available menu items as a concatenated string.
 e.g. “latte/espresso/cappuccino”
@@ -29,8 +31,9 @@ Searches the menu for a particular drink by name. Returns a MenuItem object if i
 
 
 
-CoffeeMaker Class
-Methods:
+##CoffeeMaker Class
+
+###Methods:
 report()
 Prints a report of all resources.
 e.g.
@@ -54,8 +57,9 @@ Deducts the required ingredients from the resources.
 
 
 
-MoneyMachine Class
-Methods:
+##MoneyMachine Class
+
+###Methods:
 report()
 Prints the current profit
 e.g.
